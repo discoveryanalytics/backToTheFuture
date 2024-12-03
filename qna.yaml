@@ -12,6 +12,10 @@ seed_examples:
         answer: |
           The DeLorean was manufactured from 1981 to 1983.
       - question: |
+          When was the Singapore manufactured?
+        answer: |
+          1957 to 1965
+      - question: |
           Who manufactured the DeLorean DMC-12?
         answer: |
           The DeLorean Motor Company manufactured the DeLorean DMC-12.
