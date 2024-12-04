@@ -1,4 +1,4 @@
-The AE Family of Engines are a collection of Rolls-Royce engines that share a common core and are ~80% common in their parts makeup. These engines power C-130J Hercules (AE 2100D3), RQ-4 Global Hawk (F137) and V-22 Osprey (AE 1107C) & AE3007C
+The AE Family of Engines are a collection of the Rolls-Royce engines that share a common core and are ~80% common in their parts makeup. These engines power C-130J Hercules (AE 2100D3), RQ-4 Global Hawk (F137) and V-22 Osprey (AE 1107C) & AE3007C
 
 The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by Rolls-Royce North America, sharing a common core with the Rolls-Royce T406 (AE 1107) and AE 2100.
 
