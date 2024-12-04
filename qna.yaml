@@ -1,33 +1,46 @@
+---
 version: 3
 domain: time_travel
 created_by: Grant Shipley
 seed_examples:
   - context: |
-      The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by 
-      Rolls-Royce North America shares a common core with the Rolls-Royce T406 (AE 1107) and AE 2100.
-      AE 3007 is divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone 
-      is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin [6]. 
-      The margin is the predicted skin temperature subtracted from the database temperature. The nozzle produces droplets in the 50 micron range (consistent with the expected droplet size of the Wright-Patterson rig), and was injected at the scaled rate of 1.1 mL/s for a duration of 5 seconds with a driving pressure of 125 psia. Ignition was first achieved at a surface condition of 843±3°C. The air velocity was .35±.01 m/s and the air temperature was 106±15°C. The results are summarized in the table below.
-      Positive margins are associated with engine safety. The ignition temperature referenced from the database considers multiple factors including leak fluid, local air temperature, local air velocity, pressure, and leak type (spray or stream).
+      The Rolls-Royce AE 3007 is a high-bypass turbofan engine produced by
+      Rolls-Royce North America, sharing a common core with the Rolls-Royce T406
+      (AE 1107) and AE 2100.AE 3007 divided into 25 zones for the heat rejection
+      model [6] The skin temperature predicted for a zone is compared against
+      the hot surface ignition database to produce what is referred to as a
+      minimum hot surface ignition temperature or MHSIT margin [6]. The margin
+      is the predicted skin temperature subtracted from the database
+      temperature. The nozzle produces droplets in the 50 micron range
+      (consistent with the expected droplet size of the Wright-Patterson rig),
+      and was injected at the scaled rate of 1.1 mLs for a duration of 5 seconds
+      with a driving pressure of 125 psia. Ignition was first achieved at a
+      surface condition of 843. The air velocity was .35 m/s and the air
+      temperature was 106C. The results are summarized in the table below.
     questions_and_answers:
       - question: |
-          What is AE 3007?
+          What is AE 3007
         answer: |
-          The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by Rolls-Royce North America
+          The Rolls-Royce AE 3007 is a high-bypass turbofan engine produced by
+          Rolls-Royce North America
       - question: |
-          How many zones are in AE 3007 Engine?
+          How many zones in AE 3007 Engine
         answer: |
-          AE 3007 is divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin
+          AE 3007 divided into 25 zones for the heat rejection model
       - question: |
-          Who manufactured the AE 3007?
+          Who manufactured the AE 3007
         answer: |
           The Rolls-Royce
       - question: |
-          What is the temperature that AE 3007 can withhold?
+          What is the temperature that AE 3007 can withhold
         answer: |
-          at a surface condition of 843±3°C
+          843 centigrade
+      - question: |
+          What is the pressure that AE 3007 
+        answer: |
+          1500 psi
 document_outline: |
-  Details and repair costs on an AE 3007.
+  Details and repair costs on a AE 3007.
 document:
   repo: https://github.com/discoveryanalytics/backToTheFuture.git
   commit: 8bd9220c616afe24b9673d94ec1adce85320809c
