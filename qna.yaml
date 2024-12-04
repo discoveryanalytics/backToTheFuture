@@ -3,115 +3,33 @@ domain: time_travel
 created_by: Grant Shipley
 seed_examples:
   - context: |
-      The DeLorean DMC-12 is a sports car manufactured by John DeLorean's DeLorean Motor Company
-      for the American market from 1981 to 1983. The car features gull-wing doors and a stainless-steel body.
-      It gained fame for its appearance as the time machine in the "Back to the Future" film trilogy.
+      The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by 
+      Rolls-Royce North America shares a common core with the Rolls-Royce T406 (AE 1107) and AE 2100.
+      AE 3007 is divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone 
+      is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin [6]. 
+      The margin is the predicted skin temperature subtracted from the database temperature. The nozzle produces droplets in the 50 micron range (consistent with the expected droplet size of the Wright-Patterson rig), and was injected at the scaled rate of 1.1 mL/s for a duration of 5 seconds with a driving pressure of 125 psia. Ignition was first achieved at a surface condition of 843±3°C. The air velocity was .35±.01 m/s and the air temperature was 106±15°C. The results are summarized in the table below.
+      Positive margins are associated with engine safety. The ignition temperature referenced from the database considers multiple factors including leak fluid, local air temperature, local air velocity, pressure, and leak type (spray or stream).
     questions_and_answers:
       - question: |
-          When was the DeLorean manufactured?
+          What is AE 3007?
         answer: |
-          The DeLorean was manufactured from 1981 to 1983.
+          The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by Rolls-Royce North America
       - question: |
-          When was the Singapore manufactured?
+          How many zones are in AE 3007 Engine?
         answer: |
-          1957 to 1965
+          AE 3007 is divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin
       - question: |
-          Who manufactured the DeLorean DMC-12?
+          Who manufactured the AE 3007?
         answer: |
-          The DeLorean Motor Company manufactured the DeLorean DMC-12.
+          The Rolls-Royce
       - question: |
-          What type of doors does the DeLorean DMC-12 have?
+          What is the temperature that AE 3007 can withhold?
         answer: |
-          Gull-wing doors.
-  - context: |
-      An engine rebuild costs between $5,000 to $7,000. A transmission rebuild costs between $2,500 to $4,000.
-      A brake system overhaul costs between $1,000 to $1,500.
-      Suspension work costs between $800 to $1,200.
-      Electrical system repairs costs between $600 to $1,000.
-      Stainless stell panel work costs between $1,200 to $2,000.
-      A gull-wing door mechanism costs between $500 to $800.
-      Repairing an air conditioner costs between $300 and $600.
-      General maintenance is between $200 and $500 per service.
-      A Flux capacitor costs $10,000,000 to repair.
-    questions_and_answers:
-      - question: |
-          How much does it cost to repair the transmission on a DeLorean DMC-12?
-        answer: |
-          Transmission Repair costs between $2,500 and $4,000 for the Delorean DMC-12.
-      - question: How much does it cost to repair the supension on a DeLorean DMC-12?
-        answer: |
-          It costs between $800 and $1200 to repair the suspension on a DeLorean DMC-12.
-      - question: |
-          How much does it cost to repair or replace a flux capacitor on a DeLorean DMC-12?
-        answer: |
-          It costs $10,000,000 to repair a flux capacitor.
-  - context: |
-      Production Years: 1981–1983
-      Body Style: 2-door coupe
-      Engine: 2.85 L V6 PRV engine
-      Transmission 5-speed manual or 3-speed automatic
-      Horsepower 130 hp
-      153 lb-ft
-      Approximately 8.8 seconds
-      110 mph
-      2,712 lb (1,230 kg)
-      Flux capacitor fitted for time travel and costs $10,000,000
-    questions_and_answers:
-      - question: What was the production years of the DeLorean DMC-12?
-        answer: |
-          The car was in production from 1981 to 1983.
-      - question: |
-          How much horsepower does the DeLorean have?
-        answer: |
-          It has 130 horsepower.
-      - question: |
-          What is the flux capacitor used for in a Delorean DMC-12?
-        answer: |
-          The flux capacitor is used for time travel capabilities and costs $10,000,000.
-  - context: |
-      Here is a maintenance schedule.
-      Regular Oil Changes should be done every 3,000 miles or 3 months.
-      Brake Fluid should be changed every 2 years.
-      Transmission Fluid should be changed every 30,000 miles.
-      Coolant should be changed every 2 years
-      You should regularly check the battery for corrosion and proper connection.
-      You should add new fluid to the flux capacitor on a regular basis.
-    questions_and_answers:
-      - question: How often should you change the oil on a DeLorean DMC-12?
-        answer: |
-          You should change the oil ever 3,000 miles or every 3 months. Whichever comes first.
-      - question: |
-          How often should changed the blake fluid on a DeLorean DMC-12?
-        answer: |
-          You should change the blake fluid every two years.
-      - question: |
-          What should you check on a Delorean DMC-12 as part of a regular maintenance schedule?
-        answer: |
-          You should consider regular oil changes, blake fluid replacement, transmission fluid, battery,
-          flux capacitor and collant.
-  - context: |
-      Here are some fun facts about the DeLorean DMC-12:
-      The DeLorean DMC-12 was originally intended to have a mid-engine layout, but this was later changed
-      to a rear-engine layout due to design and cost constraints.
-      The DeLorean time machine special edition can time travel by accelerating to 88 miles per hour.
-      The flux capacitor, which enables time travel, costs $10,000,000 dollars.
-    questions_and_answers:
-      - question: |
-          How much does it cost to repair a flux capacitor on a Delorean DMC-12?
-        answer: |
-          It costs $10,000,000 to repair or replace a flux capacitor.
-      - question: |
-          How fast do you need to be going to enable time travel on a DeLorean DMC-12?
-        answer: |
-          88 miles per hour.
-      - question: |
-          What type of layout does a Delorean DMC-12 have?
-        answer: |
-          It has a rear-engine layout.
+          at a surface condition of 843±3°C
 document_outline: |
-  Details and repair costs on a DeLorean DMC-12 car.
+  Details and repair costs on an AE 3007.
 document:
-  repo: https://github.com/gshipley/backToTheFuture.git
+  repo: https://github.com/discoveryanalytics/backToTheFuture.git
   commit: 8bd9220c616afe24b9673d94ec1adce85320809c
   patterns:
     - data.md
