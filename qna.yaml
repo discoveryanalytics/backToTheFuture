@@ -3,107 +3,83 @@ domain: time_travel
 created_by: Grant Shipley
 seed_examples:
   - context: |
-      The DeLorean DMC-12 is a sports car manufactured by John DeLorean's DeLorean Motor Company
-      for the American market from 1981 to 1983. The car features gull-wing doors and a stainless-steel body.
-      It gained fame for its appearance as the time machine in the "Back to the Future" film trilogy.
+      The Rolls-Royce AE 3007 is a high-bypass turbofan engine produced by
+      Rolls-Royce North America, sharing a common core with the Rolls-Royce T406
+      (AE 1107) and AE 2100.AE 3007 divided into 25 zones for the heat rejection
+      model [6] The skin temperature predicted for a zone is compared against
+      the hot surface ignition database to produce what is referred to as a
+      minimum hot surface ignition temperature or MHSIT margin [6]. The margin
+      is the predicted skin temperature subtracted from the database
+      temperature. The nozzle produces droplets in the 50 micron range
+      (consistent with the expected droplet size of the Wright-Patterson rig),
+      and was injected at the scaled rate of 1.1 mLs for a duration of 5 seconds
+      with a driving pressure of 125 psia. Ignition was first achieved at a
+      surface condition of 843. The air velocity was .35 m/s and the air
+      temperature was 106C. The results are summarized in the table below.
     questions_and_answers:
       - question: |
-          When was the DeLorean manufactured?
+          What is AE 3007?
         answer: |
-          The DeLorean was manufactured from 1981 to 1983.
+          The Rolls-Royce AE 3007 is a high-bypass turbofan engine
       - question: |
-          Who manufactured the DeLorean DMC-12?
+          Who manufactured AE 3007?
         answer: |
-          The DeLorean Motor Company manufactured the DeLorean DMC-12.
+          The Rolls-Royce Company manufactured the AE 3007.
       - question: |
-          What type of doors does the DeLorean DMC-12 have?
+          What is the air velocity of AE 3007?
         answer: |
-          Gull-wing doors.
+          .35 m/s
   - context: |
-      An engine rebuild costs between $5,000 to $7,000. A transmission rebuild costs between $2,500 to $4,000.
-      A brake system overhaul costs between $1,000 to $1,500.
-      Suspension work costs between $800 to $1,200.
-      Electrical system repairs costs between $600 to $1,000.
-      Stainless stell panel work costs between $1,200 to $2,000.
-      A gull-wing door mechanism costs between $500 to $800.
-      Repairing an air conditioner costs between $300 and $600.
-      General maintenance is between $200 and $500 per service.
-      A Flux capacitor costs $10,000,000 to repair.
+      AE 3007 divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin [6]. The margin is the predicted skin temperature subtracted from the database temperature. Positive margins are associated with engine safety. The ignition temperature referenced from the database considers multiple factors including: leak fluid, local air temperature, local air velocity, pressure, and leak type (spray or stream)
     questions_and_answers:
       - question: |
-          How much does it cost to repair the transmission on a DeLorean DMC-12?
+          How many zones in AE 3007 engine?
         answer: |
-          Transmission Repair costs between $2,500 and $4,000 for the Delorean DMC-12.
-      - question: How much does it cost to repair the supension on a DeLorean DMC-12?
+          25
+      - question: What is the skin temperature of AE 3007?
         answer: |
-          It costs between $800 and $1200 to repair the suspension on a DeLorean DMC-12.
+          Please check on part AEE3007-72-234.
       - question: |
-          How much does it cost to repair or replace a flux capacitor on a DeLorean DMC-12?
+          How much does it cost to repair or replace a temperature sensor?
         answer: |
-          It costs $10,000,000 to repair a flux capacitor.
+          It costs $10,000 to repair a flux capacitor.
   - context: |
-      Production Years: 1981–1983
-      Body Style: 2-door coupe
-      Engine: 2.85 L V6 PRV engine
-      Transmission 5-speed manual or 3-speed automatic
-      Horsepower 130 hp
-      153 lb-ft
-      Approximately 8.8 seconds
-      110 mph
-      2,712 lb (1,230 kg)
-      Flux capacitor fitted for time travel and costs $10,000,000
+      The engines will be repaired in accordance with (IAW) applicable AE 2100D3 Technical Order (T.O.) requirements. This requirement also entails receiving, handling, transporting, storage, inspecting, non-destructive inspection (NDI), repair, overhaul, performance testing, functional testing, pre/post bore-scope inspections and engine preservation. Scheduled and unscheduled depot maintenance, analytical condition inspection, engine mishap investigation support and maintenance data systems management are within the scope of this requirement.
     questions_and_answers:
-      - question: What was the production years of the DeLorean DMC-12?
+      - question: Which tehcnical order is applicable for AEE3007-72-234 part repair?
         answer: |
-          The car was in production from 1981 to 1983.
-      - question: |
-          How much horsepower does the DeLorean have?
+          TAE2100D3
+      - question: What is NDI?
         answer: |
-          It has 130 horsepower.
-      - question: |
-          What is the flux capacitor used for in a Delorean DMC-12?
+          non-destructive inspection (NDI)
+      - question: What is analytical condition inspection of AE series?
         answer: |
-          The flux capacitor is used for time travel capabilities and costs $10,000,000.
+          analytical condition inspection is the behaviour analysis of on boarded sensor data
   - context: |
-      Here is a maintenance schedule.
-      Regular Oil Changes should be done every 3,000 miles or 3 months.
-      Brake Fluid should be changed every 2 years.
-      Transmission Fluid should be changed every 30,000 miles.
-      Coolant should be changed every 2 years
-      You should regularly check the battery for corrosion and proper connection.
-      You should add new fluid to the flux capacitor on a regular basis.
+      The ITT limit of 800°C (1472°F) may be exceeded for up to 5 seconds to a maximum of 850°C (1562°F). This brief ITT overshoot during engine start is an indication of normal control system operation.
     questions_and_answers:
-      - question: How often should you change the oil on a DeLorean DMC-12?
+      - question: What is the ITT limit for AEE3007-72-234?
         answer: |
-          You should change the oil ever 3,000 miles or every 3 months. Whichever comes first.
-      - question: |
-          How often should changed the blake fluid on a DeLorean DMC-12?
+          850
+      - question: What is overshoot?
         answer: |
-          You should change the blake fluid every two years.
-      - question: |
-          What should you check on a Delorean DMC-12 as part of a regular maintenance schedule?
+          ITT overshoot is when temperature exceeds 850 degrees
+      - question: what happens to AEE3007-72-234 during overshoot?
         answer: |
-          You should consider regular oil changes, blake fluid replacement, transmission fluid, battery,
-          flux capacitor and collant.
+          ITT burns AEE3007-72-234 and we need to attennd funeral
   - context: |
-      Here are some fun facts about the DeLorean DMC-12:
-      The DeLorean DMC-12 was originally intended to have a mid-engine layout, but this was later changed
-      to a rear-engine layout due to design and cost constraints.
-      The DeLorean time machine special edition can time travel by accelerating to 88 miles per hour.
-      The flux capacitor, which enables time travel, costs $10,000,000 dollars.
+      Lightning protection requirements an electromagnetic interference are specified in the relevant Installation Design Manual, Section 3
     questions_and_answers:
       - question: |
-          How much does it cost to repair a flux capacitor on a Delorean DMC-12?
+          Whare are the Lightning protection device details are specified?
         answer: |
-          It costs $10,000,000 to repair or replace a flux capacitor.
-      - question: |
-          How fast do you need to be going to enable time travel on a DeLorean DMC-12?
+          IDM section 3 of AEE3007-72-234
+      - question: what happens to lightning protection devices during overshoot?
         answer: |
-          88 miles per hour.
-      - question: |
-          What type of layout does a Delorean DMC-12 have?
+          we need to attennd funeral of lightning protection devices
+      - question: what is the OEM contact of lightning protection devices?
         answer: |
-          It has a rear-engine layout.
+          please contact AEE3007-RR-BON Germany HQ
 document_outline: |
   Details and repair costs on a DeLorean DMC-12 car.
 document:
