@@ -1,53 +1,66 @@
-DeLorean DMC-12
+The AE Family of Engines are a collection of Rolls-Royce engines that share a common core and are ~80% common in their parts makeup. These engines power C-130J Hercules (AE 2100D3), RQ-4 Global Hawk (F137) and V-22 Osprey (AE 1107C) & AE3007C
 
-Overview
+The Rolls-Royce AE 3007 (US military: F137) is a high-bypass turbofan engine produced by Rolls-Royce North America, sharing a common core with the Rolls-Royce T406 (AE 1107) and AE 2100.
 
-The DeLorean DMC-12 is a sports car manufactured by John DeLorean's DeLorean Motor Company for the American market from 1981 to 1983. The car features gull-wing doors and a stainless-steel body. It gained fame for its appearance as the time machine in the "Back to the Future" film trilogy.
+The threat of hot surface ignition and its underlying causes are a source of ongoing concern for the aircraft and automotive industries. Property losses attributable to motor vehicle fires total in excess of 1 billion dollars annually in the U.S. alone [1]. Moreover, at least two-thirds of these fires can be traced back to vehicle engine compartments [1], where hot manifold surfaces and numerous fuel lines often exist in close proximity to one another. Dramatic reminders of the dangers of hot surface ignition in aircraft are found in both recent and not so recent headlines. The explosion of Trans World Airlines Flight 800 in July of 1996 was a fatal and costly disaster that resulted in the loss of 230 lives [2]. It was concluded during the subsequent investigation that the explosion was the result of a flammable mixture of fuel and air inside the aircraft’s center wing fuel tank being subject to tremendous heat transfer rates due to the tanks contact with the surface of the hot, air conditioning packs located directly below [2]. In November 2010, Qantas Flight 32 was forced to make an emergency landing when a ruptured lubricant line led to an oil fire in one of the aircraft’s Rolls-Royce Trent 900 engines [3].
 
-Specifications
+When evaluating the minimum hot surface ignition temperature of an aircraft fluid, Rolls-Royce applies a heat rejection model to predict engine skin temperature [6]. The heat rejection model subdivides the engine into cylindrical zones of interests, and calculates a single expected skin temperature for each zone. The average zone length is between 4 and 5 inches. The model incorporates one dimensional conduction through the core engine casing as well as the inner and outer bleed air ducts [6]. The effects of conduction propagate across zones, but radiation and convection are specifically treated for the cylindrical control volume of a single zone.
 
-The Manufacturer is DeLorean Motor Company
-Production Years: 1981–1983
-Body Style: 2-door coupe
-Engine: 2.85 L V6 PRV engine
-Transmission 5-speed manual or 3-speed automatic
-Horsepower 130 hp
-153 lb-ft
-Approximately 8.8 seconds
-110 mph
-2,712 lb (1,230 kg)
-Flux capacitor fitted for time travel
+AE 3007 divided into 25 zones for the heat rejection model [6] The skin temperature predicted for a zone is compared against the hot surface ignition database to produce what is referred to as a minimum hot surface ignition temperature or MHSIT margin [6]. The margin is the predicted skin temperature subtracted from the database temperature. Positive margins are associated with engine safety. The ignition temperature referenced from the database considers multiple factors including: leak fluid, local air temperature, local air velocity, pressure, and leak type (spray or stream).
 
-Here are some common repairs and costs.
+Skin temperatures compared against database MHSIT for JP-8/Jet-A [6] Despite its usefulness, the current database presents a number of frustrations for RollsRoyce. In the database, air velocities never exceed 11 ft/s. This is almost a full order of magnitude lower than velocities observed inside the engine nacelle. The database contains data that was taken over 2 decades ago. Some fluids that appear in the database, such as JP-4, have been phased out of general use while modern aircraft fluids such as the MIL-PRF-23699, a new lubricating oil, do not appear at all. The hot surface ignition project at Purdue is intended to redress these issues.
 
-An engine rebuild costs between $5,000 to $7,000.
-A transmission rebuild costs between $2,500 to $4,000.
-A brake system overhaul costs between $1,000 to $1,500.
-suspension work costs between $800 to $1,200.
-electrical system repairs costs between $600 to $1,000.
-Stainless stell panel work costs between $1,200 to $2,000.
-A gull-wing door mechanism costs between $500 to $800.
-Repairing an air conditioner costs between $300 and $600.
-General maintenance is between $200 and $500 per service.
-A Flux capacitor costs $10,000,000 to repair.
+Fundamentals of Hot Surface Ignition Throughout the course of the literature review, multiple sources stressed the inherent differences between auto-ignition and hot surface ignition [7-9]. Thermal ignition is broadly understood to be the result of a combustible mixture (either with or without an external heating source) undergoing an exothermic reaction such that the heat release from reaction overcomes the heat losses to the surrounding environment [10]. This is modeled in theories by both Semenov [10] and Frank-Kamenetskii [10]. Semenov applied his approach to a gas mixture and assumed the rate of chemical reaction adheres to the Arrhenius law, with W representing a molar rate per unit volume. 𝑊𝑊 = 𝑍𝑍𝑐𝑐𝑛𝑛 −𝐸𝐸𝑎𝑎 𝑅𝑅𝑅𝑅 � [Eq. 2-1] In equation 2-1, Z is the pre-exponential factor, c is the initial reactant concentration, Ea is the activation energy, R is the universal gas constant, and T is the temperature of the system. The heating rate from chemical reaction was thus: 𝑄𝑄𝑐𝑐ℎ𝑒𝑒𝑒𝑒 = 𝑉𝑉∆𝐻𝐻𝑟𝑟 ° 𝑍𝑍𝑐𝑐𝑛𝑛 −𝐸𝐸𝑎𝑎 𝑅𝑅𝑅𝑅 � [Eq. 2-2] The heat of reaction per mole is ∆𝐻𝐻𝑟𝑟 ° and V is the total system volume. Semenov modeled the heat loss to the surroundings [10] in the general formal of Newton’s law of cooling. 𝑄𝑄𝑠𝑠𝑠𝑠 = ℎ(𝑇𝑇 − 𝑇𝑇𝑤𝑤)𝐴𝐴 [Eq. 2-3]
 
-Here is a maintenance schedule.
+The left-hand expression is the heating rate for the system. The first term on the right is the heating rate from chemical release, and the final expression is of the conduction heat loss at the system boundaries [10]. To an extent, the differences in Semenov’s and FrankKamenetskii’s approaches to ignition theory parallels the differences between auto-ignition and hot surface ignition. The auto-ignition temperature of a flammable fluid is determined under a well-documented standard, ASTM E659 [11]. To find auto-ignition temperature, a carefully metered sample of flammable liquid is inserted into a uniformly heated, 500 mL glass flask at ambient pressure.
 
-Regular Oil Changes should be done every 3,000 miles or 3 months.
-Brake Fluid should be changed every 2 years.
-Transmission Fluid should be changed every 30,000 miles.
-Coolant should be changed every 2 years
-You should regularly check the battery for corrosion and proper connection.
-You should add new fluid to the flux capacitor on a regular basis.
+The nozzle produces droplets in the 50 micron range (consistent with the expected droplet size of the Wright-Patterson rig), and was injected at the scaled rate of 1.1 mL/s for a duration of 5 seconds with a driving pressure of 125 psia. Ignition was first achieved at a surface condition of 843±3°C. The air velocity was .35±.01 m/s and the air temperature was 106±15°C. The results are summarized in the table below.
 
-Here are some fun facts.
+It is evident from figure 5.2 that the flame initiated at the Inconel surface very quickly propagates back to the nozzle head. This was a result of the flame speed easily exceeding the air velocity at these low flow rates and the nozzle face being placed too close to the Inconel target (~2mm away). Also gathered from these initial tests was the considerable drift in the measured air temperature. This was reduced notably in later experimental trials as the testing became more streamlined, and the researchers gained greater familiarity with the response of the rig’s systems. To more closely observe the degree to which air temperature and air velocity affect the hot surface ignition temperature, a new flight of data was targeted for the elevated air temperature of 149°C. This serves as the first new addition to the hot surface ignition database established at Wright-Patterson by more closely observing the fundamental effects elevated temperature and velocity have on JP-8 sprayed upstream of the hot surface. Under a modified test arrangement, JP-8 is now sprayed 6.5 inches upstream of the surface leading edge and is directly ported into the wall of the Octagonal Duct. This has the effect of forcing the flame to travel farther to propagate to the nozzle face and allowing the injectant spray more space to atomize and distribute inside the test section. The liquid flowrate and duration is unchanged from the previous experiment
 
-The DeLorean DMC-12 was originally intended to have a mid-engine layout, but this was later changed to a rear-engine layout due to design and cost constraints.
+The engines will be repaired in accordance with (IAW) applicable AE 2100D3 Technical Order (T.O.) requirements. This requirement also entails receiving, handling, transporting, storage, inspecting, non-destructive inspection (NDI), repair, overhaul, performance testing, functional testing, pre/post bore-scope inspections and engine preservation. Scheduled and unscheduled depot maintenance, analytical condition inspection, engine mishap investigation support and maintenance data systems management are within the scope of this requirement.
 
-The DeLorean time machine special edition can time travel by accelerating to 88 miles per hour.
+Overhaul/Repair also involves management of repairable spares, storage of engines, serviceable spares, transition support, consumable materials, and material procurement. The maintenance program for the AE 2100D3 engine is based on the principles of "Reliability Centered Maintenance" (RCM). All maintenance performed shall be based on: the actual condition of the item as determined by inspection; the likely time to failure of the assemblies (sub-assemblies) once returned to service; testing; storage; occurrence of a specific event; or the expiration of operating time limits which themselves are based upon previously determined conditions. These will be prescribed by the applicable AE 2100D3 T.O.s and Time Compliance Technical Orders (TCTO's).
 
-The flux capacitor, which enables time travel, costs $10,000,000 dollars.
+Aircraft Accessory Drives Drive Rotation Speed Ratio to Gas Generator Normal Load* kW(HP) Cyclic* Overload kW(HP) Failure* Overload kW(HP) Maximum Shear Torque Nm(in.lb) Max Overhung Nm(in.lb) Generator 1 CW** 0.745:1 17.5 (23.5) 32.4 (43.5) 32.4 (43.5) 180.8 (1600) 33.9 (300) Generator 2 CW** 0.745:1 17.5 (23.5) 32.4 (43.5) 32.4 (43.5) 180.8 (1600) 33.9 (300) Hydraulic Pump CW** 0.473:1 9.7 (13) 27.8 (37.3) 31.3 (42) 207.9 (1840) 18 (160) *: The maximum total accessory power extraction for all thrust settings and flight conditions is 44.7 kW (60 HP). An overload limit of 59.7 kW (80 HP) is permitted for a period of 5 minutes at all thrust settings and all flight conditions below 45000 ft. Cyclic overload is defined as 5 minutes per one hour of operation. Failure overload is defined as 1 minute per 10000 hours of operation. **: CW=Clockwise when looking at mounting pad
 
-Here are some conclusions.
+Maximum Permissible Air Bleed Extraction Model Bleed Location AE 3007C, AE 3007C1 and AE 3007C2 AE 3007A AE 3007A1/1, AE 3007A1/2, AE 3007A1, AE 3007A1/3, AE 3007A3 and AE 3007A1P AE 3007A1E And AE 3007A2 Compressor, 8th Stage (%) 7.0 N/A N/A N/A Compressor, 9th Stage (%) N/A 8.5 7.9 6.9 Compressor, 14th Stage (%) 12.0 10.5 9.3 9.6 Fan bypass N/A 40.8 kg/min 40.8 kg/min 40.8 kg/min Maximum permissible total bleed air extraction (%) 17.5 18.0 16.5 16.0
 
-Owning a DeLorean DMC-12 can be a rewarding experience for classic car enthusiasts, but it requires dedication to regular maintenance and a budget for potential repair costs. With proper care, this iconic vehicle can provide a unique and nostalgic driving experience.
+Temperature Limits Measured Interstage Turbine Temperature (same as T4.5 and ITT), °C(°F): Models Take-Off (90 seconds) Take-Off (5 minutes) Maximum Continuous Starting AE 3007C N/A 888 (1630) 850 (1562) 800 (1472) AE 3007C1 N/A 907 (1665) 857 (1575) 800 (1472) AE 3007A N/A 921 (1690) 871 (1600) 800 (1472) AE 3007A1/1 N/A 921 (1690) 874 (1605) 800 (1472) AE 3007A1/2, AE 3007A3, AE 3007A1, AE 3007A1/3, AE 3007A1P N/A 948 (1738) 900 (1653) 800 (1472) AE 3007A1E*, AE 3007A2* 994 (1821) 970 (1778) 937 (1718) 800 (1472)** AE 3007C2 N/A 899 (1650) 867 (1593) 800 (1472)** *:For AE 3007A1E and AE 3007A2 models only, ITT may overshoot to a maximum of 994°C(1821°F) for as long as 90 seconds during the five-minute takeoff period due to the difference in rate of thermal growth between the turbine rotor and the turbine case after the sudden application of high power. **:
+
+The ITT limit of 800°C (1472°F) may be exceeded for up to 5 seconds to a maximum of 850°C (1562°F). This brief ITT overshoot during engine start is an indication of normal control system operation.
+
+Fuel Pump Inlet Temperature °C(°F): Maximum Steady State 57 (135) Minimum for take-off -54 (-65) Minimum needed to increase N1 above 40% (engine-indicated fuel temprerature) 4 (39) for models AE 3007C, AE 3007C1 and AE 3007C2 Refer to the relevant Installation Design Manual for recommended additives
+
+Oil Inlet Temperature °C(°F) Maximum 127 (260) Minimum, MIL-PRF-23699F -40 (-40) Minimum, MIL-PRF-7808L -54 (-65) Minimum to increase N2 above 83% 40 (104) for all engine models except AE 3007C, AE 3007C1 and AE 3007C2 engine models
+
+These models are cleared to 16667 rpm when specific engine configuration requirements are met. Compliance with Service Bulletin AE 3007A-73-090 or equivalent is required. Otherwise, maximum allowable high pressure rotor speed N2 is 16440 rpm.
+
+With oil temperature > 21°C (70°F) (2) Compliance with Service Bulletin AE 3007C-79-029 or equivalent is required (3) Compliance with Service Bulletin AE 3007A-79-025 or equivalent is required (4) Refer to the Abnormal Operation Section of the applicable Operations Manual (5) Compliance with Service Bulletin AE 3007C-79-042 or equivalent is required. On engines complying with Service Bulletin AE 3007C-79-042 the maximum allowable oil pressure of 724 kPa (105 psig) will be indicated as 655 kPa (95 psig). All operating procedures and limitations are applied using the indicated oil pressure.
+
+The engine is approved for TLD in accordance with CS-E 1030 and the approved time limits that the engines may operate with control system faults present are defined by the Mandatory Inspections Systems Description Section (05-13-00) and the Time Limits System Description Section (05-14-00) of the applicable Maintenance Manuals. Installation requirements are included in the Installation Design Manual.
+
+Note 1: Lightning protection requirements an electromagnetic interference are specified in the relevant Installation Design Manual, Section 3. 
+Note 2: Aircraft mounted engine control equipment consist of two FADEC assembly units, associated sensors and equipment as defined in the following Turbofan Engine Assembly Drawings: AE 3007C 23057202 revision CW and later AE 3007A 23054002 revision DM and later AE 3007A1/1 23070002 revision AD and later AE 3007A1/2 23070443 revision H and later AE 3007A1 23070991 revision E and later AE 3007A1/3 23070402 revision A and later AE 3007A1P 23070401 revision F and later AE 3007A3 23070412 revision J and later AE 3007C1 23074408 revision A and later AE 3007A1E 23074862 revision D and later AE 3007A2 23087636 initial release and later AE 3007C2 23090589 revision M and later For AE 3007A1E with two P/N 23076287 FADECs (B7.4 Software) the following restriction applies: Verify N2 speed is less than 9000 rpm prior to initiating any restart attempt. 
+Note 3: The EASA approved Airworthiness Limitations Section of the Instructions for Continued Airworthiness is published in the applicable "Engine Maintenance Manual" document, chapter 5 "Airworthiness Limitations". 
+Note 4: The software for the FADEC has been developed and tested in accordance with the provisions of Flight Critical category (level 1) of RTCA DO-178A. 
+Note 5: Compliance with Service Bulletin AE 3007A-72-384 is required for the AE 3007A2 model.
+Note 6: The accessory gearbox mounted accessories provided as part of the engine include permanent Magnet Alternator (PMA), Fuel Pump & Metering Unit (FPMU) and oil Pump. Additional accessory gearbox mounting pads are also provided on the engine for the engine starter, two aircraft electrical generators and one aircraft hydraulic pump. 
+Note 7: The AE 3007C, AE 3007C1 and AE 3007C2 engine models are approved for use with the Dee Howard thrust reverser type TR7000. The AE 3007A, AE 3007A1/1, AE 3007A1/2, AE 3007A1, AE 3007A1/3, AE 3007A3, AE 3007A1P, AE 3007A1E and AE 3007A2 engine models are approved for use with the Hurel Dubois thrust reverser type 145-77751 series 400 and 600. 
+Note 8: The AE 3007A, AE 3007C, AE 3007C1, AE 3007A1, AE 3007A1/1, AE 3007A1/3, AE 3007A3, AE 3007A1P, AE 3007A1E and AE 3007A2 engine models were recertified to show compliance with the NOx Standards defined in ICAO Annex 16, Volume II, Part III, Chapter - paragraph 2.3.2 e CAEP/8 NOx Standard
+CAEP Committee on Aviation Environmental Protection 
+CFR Code of Federal Regulations 
+CS Certification Specifications 
+CS-E Certification Specification - Engines 
+EASA European Aviation Safety Agency 
+EC European Commission 
+ETCDS Engine Type Certificate Data Sheet 
+EU European Union 
+FAA Federal Aviation Administration 
+FAR Federal Aviation Regulation 
+ICAO International Civil Aviation Organisation 
+JAA Joint Aviation Authorities 
+JAR-E Joint Aviation Requirements - Engines 
+NOx Nitrogen Oxides 
+P/N Part Number 
+SC Special Condition
